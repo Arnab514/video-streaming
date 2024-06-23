@@ -44,6 +44,6 @@ app.post("/upload" , upload.single('file') , function(req , res){
     console.log("file uploaded")
 })
 
-app.listen(8000 , () => {
-    console.log("Server is running at port 8000...")
+app.listen(4000 , () => {
+    console.log("Server is running at port 4000...")
 })
