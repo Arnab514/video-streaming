@@ -28,7 +28,7 @@ app.use(
 }))
 
 app.use((req , res , next) => {
-    res.header("Access-Contro;-Allow-Headers" , "Origin , X-Requested-With , Content-Type , Accept")
+    res.header("Access-Control-Allow-Headers" , "Origin , X-Requested-With , Content-Type , Accept")
     next()
 })
 
